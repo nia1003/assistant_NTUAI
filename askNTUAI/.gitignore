@@ -1,0 +1,17 @@
+# 忽略所有環境變數檔案
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env.*
+
+# Node.js 相關
+node_modules/
+dist/
+
+# Python 相關
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
